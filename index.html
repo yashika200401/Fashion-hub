@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopper</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="logo">
+  <img src="image/logo.png" alt="logo">
+  <span>SHOPPER</span>
+</div>
+
+  <ul class="menu">
+    <li class="active">Shop</li>
+    <li><a href="men.html">Men</a></li>
+    <li><a href="women.html">Women</a></li>
+    <li><a href="kids.html">Kids</a></li>
+  </ul>
+
+  <div class="right">
+    <button class="login" onclick="goLogin()">Login</button>
+
+    <a href="cart.html" class="cart-box">
+      🛒 <span class="cart-count">0</span>
+    </a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+  <div class="hero-text">
+    <p class="small">NEW ARRIVALS ONLY</p>
+
+    <h1>
+      new collections<br>
+      for everyone 👋
+    </h1>
+
+    <a href="collection.html">
+      <button class="btn">Latest Collection →</button>
+    </a>
+  </div>
+
+  <div class="hero-image">
+    <img src="image/hero_image.png" alt="model">
+  </div>
+
+</section>
+
+<!-- 🔥 ADD THIS SCRIPT -->
+<script>
+  function goLogin() {
+    window.location.href = "login.html";
+  }
+</script>
+
+</body>
+</html>

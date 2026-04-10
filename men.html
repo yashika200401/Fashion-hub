@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Men Collection</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="logo">
+  <img src="image/logo.png" alt="logo">
+  <span>SHOPPER</span>
+</div>
+  <ul class="menu">
+    <li><a href="index.html">Shop</a></li>
+    <li><a href="men.html">Men</a></li>
+    <li><a href="women.html">Women</a></li>
+        <li><a href="kids.html">Kids</a></li>
+
+  </ul>
+
+  <div class="right">
+    <button class="login">Login</button>
+  <a href="cart.html" class="cart-box">
+  🛒 <span class="cart-count">0</span>
+</a>
+  </div>
+</nav>
+
+<!-- BACK BUTTON -->
+<div class="top-bar">
+  <a href="index.html" class="back-btn">← Back to Home</a>
+</div>
+<div class="banner">
+  <img src="image/banner_mens.png" alt="Men Banner">
+</div>
+<!-- TITLE -->
+<h1 class="title">Men Collection</h1>
+
+<!-- PRODUCTS -->
+<div class="products">
+
+  <div class="card">
+    <img src="image/T shirt.jpg">
+    <h3>Men T-Shirt</h3>
+    <p><span class="new">₹499</span> <span class="old">₹999</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+    <button onclick="addToCart('Men T-Shirt', 499)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="image/Formal shirt.jpg">
+    <h3>Formal Shirt</h3>
+    <p><span class="new">₹799</span> <span class="old">₹1499</span></p>
+    <p class="rating">⭐⭐⭐⭐⭐</p>
+    <button onclick="addToCart('Formal Shirt', 799)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="image/jean.webp">
+    <h3>Jeans</h3>
+    <p><span class="new">₹999</span> <span class="old">₹1999</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+    <button onclick="addToCart('Jeans', 999)">Add to Cart</button>
+
+  </div>
+
+<div class="card">
+    <img src="image/jean2.webp">
+    <h3>Jeans</h3>
+    <p><span class="new">₹799</span> <span class="old">₹1499</span></p>
+    <p class="rating">⭐⭐⭐☆</p>
+    <button onclick="addToCart('Jeans', 799)">Add to Cart</button>
+  </div>
+
+<div class="card">
+    <img src="image/hoodie.png">
+    <h3>Hoodie</h3>
+    <p><span class="new">₹1299</span> <span class="old">₹2499</span></p>
+    <p class="rating">⭐⭐⭐⭐⭐</p>
+    <button onclick="addToCart('Hoodie', 1299)">Add to Cart</button>
+  </div>
+
+<div class="card">
+    <img src="image/jacket.png">
+    <h3>Jacket</h3>
+    <p><span class="new">₹1499</span> <span class="old">₹2999</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+    <button onclick="addToCart('Jacket', 1499)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+    <img src="imagE/Jacket2.png">
+    <h3>Jacket</h3>
+    <p><span class="new">₹1199</span> <span class="old">₹2399</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+    <button onclick="addToCart('Jacket', 1199)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+    <img src="image/Shoes.webp">   
+    <h3>shoes</h3>
+    <p><span class="new">₹1999</span> <span class="old">₹3999</span></p>
+    <p class="rating">⭐⭐⭐⭐⭐</p>
+    <button onclick="addToCart('shoes', 1999)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+    <img src="image/belt.webp">       
+    <h3>Belt</h3>
+    <p><span class="new">₹499</span> <span class="old">₹999</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+    <button onclick="addToCart('Belt', 499)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+    <img src="image/T shirt.jpg">           
+    <h3>T-shirt</h3>
+    <p><span class="new">₹699</span> <span class="old">₹1299</span></p>
+    <p class="rating">⭐⭐⭐⭐⭐</p> 
+        <button onclick="addToCart('T-shirt', 699)">Add to Cart</button>
+   
+
+    </div>
+    
+    <div class="card">
+    <img src="image/shorts.webp">      
+    <h3>Shorts</h3>
+    <p><span class="new">₹399</span> <span class="old">₹799</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+        <button onclick="addToCart('Shorts', 399)">Add to Cart</button>
+
+    </div>
+
+    <div class="card">
+    <img src="image/blazer.webp">      
+    <h3>Blazer</h3>
+    <p><span class="new">₹2499</span> <span class="old">₹4999</span></p>
+    <p class="rating">⭐⭐⭐⭐⭐</p>
+        <button onclick="addToCart('Blazer', 2499)">Add to Cart</button>
+
+    </div>
+
+    <div class="card">
+    <img src="image/Tracksuit.png">  
+    <h3>Tracksuit</h3>
+    <p><span class="new">₹1199</span> <span class="old">₹2399</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>  
+        <button onclick="addToCart('Tracksuit', 1199)">Add to Cart</button>
+  
+    </div>
+
+    <div class="card">  
+    <img src="image/Tracksuit.png">
+    <h3>Tracksuit</h3>
+    <p><span class="new">₹999</span> <span class="old">₹1999</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>
+        <button onclick="addToCart('Tracksuit', 999)">Add to Cart</button>
+
+    </div>
+
+    <div class="card">  
+    <img src="image/underwear.webp">
+    <h3>Underwear</h3>
+    <p><span class="new">₹499</span> <span class="old">₹999</span></p>
+    <p class="rating">⭐⭐⭐⭐☆</p>   
+        <button onclick="addToCart('Underwear', 499)">Add to Cart</button>  
+    </div>
+
+
+</div>
+
+</body>
+</html>

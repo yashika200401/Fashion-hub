@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadCart()">
+<nav class="navbar">
+  <div class="logo">🛍 SHOPPER</div>
+
+  <ul class="menu">
+    <li><a href="index.html">Shop</a></li>
+    <li><a href="men.html">Men</a></li>
+    <li><a href="women.html">Women</a></li>
+        <li><a href="kids.html">Kids</a></li>
+
+  </ul>
+
+  <div class="right">
+    <button class="login">Login</button>
+  <a href="cart.html" class="cart-box">
+  🛒 <span class="cart-count">0</span>
+</a>
+  </div>
+</nav>
+<div class="top-bar">
+  <a href="index.html" class="back-btn">← Back to Home</a>
+</div>
+<div id="cart-items"></div>
+
+<!-- ORDER DETAILS -->
+<div class="order">
+  <h2>Order Details</h2>
+
+  <p>Delivery Fee: ₹50</p>
+  <p>Platform Fee: ₹0</p>
+  <h3>Total: ₹<span id="total">0</span></h3>
+</div>
+
+<!-- ADDRESS -->
+<div class="address-section">
+  <h2>Address</h2>
+  <textarea id="address" placeholder="Enter your address"></textarea>
+</div>
+
+<!-- PAYMENT -->
+<div class="payment-section">
+  <h2>Payment</h2>
+  <label>
+    <input type="radio" checked> Cash on Delivery
+  </label>
+</div>
+
+<!-- BUTTON -->
+<button class="place-order-btn" onclick="placeOrder()">Place Order</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

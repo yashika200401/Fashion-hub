@@ -1,0 +1,120 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+/* LOGO FIX (MAIN ISSUE SOLVED) */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.logo span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* RIGHT SIDE */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+/* CART */
+.cart-box {
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 3px 7px;
+  border-radius: 50%;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: linear-gradient(to right, #fde6e6, #ffffff);
+}
+
+/* TEXT */
+.hero-text {
+  width: 10%;
+}
+
+.hero-text h1 {
+  font-size: 65px;
+  line-height: 1.2;
+  width: 80%;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 40px;
+  padding: 15px 30px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* IMAGE */
+.hero-image img {
+  width: 550px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Latest Collection</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+<nav class="navbar">
+
+<div class="logo">
+  <img src="image/logo.png" alt="logo">
+  <span>SHOPPER</span>
+</div>
+  <ul class="menu">
+    <li><a href="index.html">Shop</a></li>
+    <li><a href="men.html">Men</a></li>
+    <li><a href="women.html">Women</a></li>
+        <li><a href="kids.html">Kids</a></li>
+
+  </ul>
+
+  <div class="right">
+    <button class="login" onclick="goLogin()">Login</button>
+    <a href="cart.html" class="cart-box">
+  🛒 <span class="cart-count">0</span>
+</a>
+  </div>
+
+</nav>
+    <div class="top-bar">
+  <a href="index.html" class="back-btn">← Back to Home</a>
+</div>
+
+<h1 class="title">Latest Collection</h1>
+<div class="products">
+
+  <!-- PRODUCT 1 -->
+  <div class="card"><img src="image/latest men t shirt.jpg">
+    <h3>T-Shirt</h3>
+    <p>
+      <span class="new">₹499</span>
+       <span class="old">₹999</span></p>
+       <p class="rating">⭐⭐⭐⭐☆</p>
+       <button onclick="addToCart('T-Shirt', 499, 'image/latest men t shirt.jpg')">Add to Cart</button></div>
+
+  <!-- PRODUCT 2 -->
+  <div class="card"><img src="image/latest shirt.webp"><h3>Shirt</h3><p><span class="new">₹699</span> <span class="old">₹1299</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Shirt', 699)">Add to Cart</button></div>
+
+  <!-- PRODUCT 3 -->
+  <div class="card"><img src="image/latest jeans.webp"><h3>Jeans</h3><p><span class="new">₹999</span> <span class="old">₹1999</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Jeans', 999)">Add to Cart</button></div>
+
+  <!-- PRODUCT 4 -->
+  <div class="card"><img src="image/latest hoodie.png"><h3>Hoodie</h3><p><span class="new">₹1299</span> <span class="old">₹2499</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Hoodie', 1299)">Add to Cart</button></div>
+
+  <!-- PRODUCT 5 -->
+  <div class="card"><img src="image/latest jacket women.webp"><h3>Jacket</h3><p><span class="new">₹1499</span> <span class="old">₹2999</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Jacket', 1499)">Add to Cart</button></div>
+
+  <!-- PRODUCT 6 -->
+  <div class="card"><img src="image/latest kurt.avif"><h3>Kurta</h3><p><span class="new">₹799</span> <span class="old">₹1599</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Kurta', 799)">Add to Cart</button></div>
+
+  <!-- PRODUCT 7 -->
+  <div class="card"><img src="image/LATEST  SAREEE.webp"><h3>Saree</h3><p><span class="new">₹1999</span> <span class="old">₹3999</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Saree', 1999)">Add to Cart</button></div>
+
+  <!-- PRODUCT 8 -->
+  <div class="card"><img src="image/LATEST TOP.jpg"><h3>Top</h3><p><span class="new">₹499</span> <span class="old">₹999</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Top', 499)">Add to Cart</button></div>
+
+  <!-- PRODUCT 9 -->
+  <div class="card"><img src="image/latest skirt.webp"><h3>Skirt</h3><p><span class="new">₹699</span> <span class="old">₹1299</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Skirt', 699)">Add to Cart</button></div>
+
+  <!-- PRODUCT 10 -->
+  <div class="card"><img src="image/lastest shorts.webp"><h3>Shorts</h3><p><span class="new">₹399</span> <span class="old">₹799</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Shorts', 399)">Add to Cart</button></div>
+
+  <!-- PRODUCT 11 -->
+  <div class="card"><img src="image/latest blazer.jpg"><h3>Blazer</h3><p><span class="new">₹2499</span> <span class="old">₹4999</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Blazer', 2499)">Add to Cart</button></div>
+
+  <!-- PRODUCT 12 -->
+  <div class="card"><img src="image/latest tracksuit.jpg"><h3>Tracksuit</h3><p><span class="new">₹1199</span> <span class="old">₹2399</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Tracksuit', 1199)">Add to Cart</button></div>
+
+  <!-- PRODUCT 13 -->
+  <div class="card"><img src="image/latest denim jacket.webp"><h3>Denim Jacket</h3><p><span class="new">₹1599</span> <span class="old">₹3199</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Denim Jacket', 1599)">Add to Cart</button></div>
+
+  <!-- PRODUCT 14 -->
+  <div class="card"><img src="image/latest crop top.webp"><h3>Crop Top</h3><p><span class="new">₹599</span> <span class="old">₹1199</span></p><p class="rating">⭐⭐⭐⭐☆</p><button onclick="addToCart('Crop Top', 599)">Add to Cart</button></div>
+
+  <!-- PRODUCT 15 -->
+  <div class="card"><img src="image/latest formal shirt.webp"><h3>Formal Shirt</h3><p><span class="new">₹899</span> <span class="old">₹1799</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Formal Shirt', 899)">Add to Cart</button></div>
+
+  <!-- PRODUCT 16 -->
+  <div class="card"><img src="image/lastest suit.webp"><h3>Suit</h3><p><span class="new">₹3999</span> <span class="old">₹7999</span></p><p class="rating">⭐⭐⭐⭐⭐</p><button onclick="addToCart('Suit', 3999)">Add to Cart</button></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
